@@ -57,6 +57,9 @@ SET peso = 70.00;
 DELETE FROM cliente
 WHERE cpf = 12345678901;
 
+DELETE FROM cliente
+WHERE cpf = 23456789012;
+
 --Deletando a tabela cliente
 DROP TABLE cliente;
 
